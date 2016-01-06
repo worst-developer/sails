@@ -1,0 +1,42 @@
+{
+	"destination": ".tmp/public",
+	
+	"tasks": {
+		"assets": {
+			"src": [
+				"assets/other/**/*"
+			],
+			"base": "assets"
+		},
+		"sprites": [
+			"assets/images/**/*"
+		],
+		"scripts": {
+			"src": [
+				"assets/js/**/*.js"
+			],
+			"base": "assets"
+		},
+		"styles": {
+			"src": [
+				"assets/styles/**/*.js"
+			],
+			"base": "assets"
+		},
+		"templates": {
+			"src": [
+				"assets/templates/**/*.+(hbs|handlebars)"
+			],
+			"dest": "templates"
+		},
+		"modules": {
+			"src": [],
+			"dest": "modules"
+		}
+	},
+
+	"views": {
+		"src": "views-in/**/*",
+		"dest": "views"
+	}
+}
